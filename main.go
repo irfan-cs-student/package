@@ -10,4 +10,6 @@ import (
 func main() {
 	fmt.Println(utils.Add(2, 3))
 	fmt.Println(greet.Hello("Ali"))
+	Intro("Ali", 20, "10th")
+
 }
